@@ -10,6 +10,8 @@ The idea is straightforward: you write a message, attach media if you want, set 
 
 Ownership of a capsule is transferable like any other NFT. You can send one to someone else and they become the only person who can open it when the time comes. This makes Capsula useful for anything from letters to a future self, to surprise messages for other people, to time-delayed digital gifts.
 
+![Home page](screenshots/home.jpeg)
+
 ## Tech Stack
 
 **Frontend**
@@ -64,6 +66,8 @@ docker compose up --build
 ```
 
 The first build takes a few minutes because Docker pulls base images and installs dependencies. Every build after that is faster because Docker caches layers and only rebuilds what has changed.
+
+![Stack running with Docker Compose](screenshots/docker-compose.jpeg)
 
 **Services and ports**
 
