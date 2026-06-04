@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-primary-black text-text-primary antialiased;
+	}
+}
+
+@layer components {
+	.btn-primary {
+		@apply px-4 py-2 bg-primary-gold text-primary-black rounded-lg hover:bg-primary-gold-light transition-colors;
+	}
+
+	.btn-outline {
+		@apply px-4 py-2 border border-primary-gold text-primary-gold rounded-lg hover:bg-primary-gold/10 transition-colors;
+	}
+
+	.gradient-text {
+		@apply bg-clip-text text-transparent bg-gradient-to-r from-primary-gold to-primary-gold-light animate-gradient-x;
+	}
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	@apply bg-primary-surface;
+}
+
+::-webkit-scrollbar-thumb {
+	@apply bg-primary-gold/30 rounded-full hover:bg-primary-gold/50 transition-colors;
+}
