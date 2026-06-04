@@ -192,6 +192,6 @@ The containerisation and local development environment for this project was impl
 
 ## Acknowledgments
 
-The original application was developed for the Hedera Hackathon Africa.
+The original application was developed for the Hedera Hackathon Africa by https://github.com/timileyindev
 
 Thanks to Hedera Hashgraph for the blockchain infrastructure, Infura and the IPFS ecosystem for decentralised storage, OpenZeppelin for audited smart contract standards, and the React and Vite communities for the tooling that makes frontend development enjoyable.
